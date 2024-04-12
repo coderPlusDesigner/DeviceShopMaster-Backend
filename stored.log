@@ -1,0 +1,346 @@
+App 2677529 output: Not Found: /token/login
+App 2677529 output: [ pid=2677529, time=2024-04-11 08:35:15,113 ]: Not Found: /token/login
+App 2677529 output: Method Not Allowed: /auth/token/login
+App 2677529 output: [ pid=2677529, time=2024-04-11 08:35:26,391 ]: Method Not Allowed: /auth/token/login
+App 2677529 output: Bad Request: /auth/token/login/
+App 2677529 output: [ pid=2677529, time=2024-04-11 08:45:30,065 ]: Bad Request: /auth/token/login/
+App 2677529 output: Bad Request: /auth/token/login/
+App 2677529 output: [ pid=2677529, time=2024-04-11 09:04:23,752 ]: Bad Request: /auth/token/login/
+App 686937 output: Bad Request: /products/create/
+App 686937 output: [ pid=686937, time=2024-04-11 14:00:46,364 ]: Bad Request: /products/create/
+App 686937 output: Method Not Allowed: /products/create/
+App 686937 output: [ pid=686937, time=2024-04-11 14:05:14,109 ]: Method Not Allowed: /products/create/
+App 686937 output: Method Not Allowed: /products/create/
+App 686937 output: [ pid=686937, time=2024-04-11 14:05:15,235 ]: Method Not Allowed: /products/create/
+App 686937 output: Method Not Allowed: /products/create/
+App 686937 output: [ pid=686937, time=2024-04-11 14:05:27,661 ]: Method Not Allowed: /products/create/
+App 686937 output: Method Not Allowed: /products/create/
+App 686937 output: [ pid=686937, time=2024-04-11 14:05:29,187 ]: Method Not Allowed: /products/create/
+App 686937 output: Unauthorized: /products/create/
+App 686937 output: [ pid=686937, time=2024-04-11 14:51:28,758 ]: Unauthorized: /products/create/
+App 686937 output: Bad Request: /products/create/
+App 686937 output: [ pid=686937, time=2024-04-11 14:53:20,126 ]: Bad Request: /products/create/
+App 686937 output: Bad Request: /products/create/
+App 686937 output: [ pid=686937, time=2024-04-11 15:00:39,902 ]: Bad Request: /products/create/
+App 686937 output: Internal Server Error: /products/45
+App 686937 output: Traceback (most recent call last):
+App 686937 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+App 686937 output:     response = get_response(request)
+App 686937 output:                ^^^^^^^^^^^^^^^^^^^^^
+App 686937 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/utils/deprecation.py", line 136, in __call__
+App 686937 output:     response = self.process_response(request, response)
+App 686937 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 686937 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/middleware/common.py", line 108, in process_response
+App 686937 output:     return self.response_redirect_class(self.get_full_path_with_slash(request))
+App 686937 output:                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 686937 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+App 686937 output:     raise RuntimeError(
+App 686937 output: RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to deviceshopmaster-api.ecomputics.uz/products/45/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+App 686937 output: [ pid=686937, time=2024-04-11 16:32:22,368 ]: Internal Server Error: /products/45
+App 686937 output: Traceback (most recent call last):
+App 686937 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+App 686937 output:     response = get_response(request)
+App 686937 output:                ^^^^^^^^^^^^^^^^^^^^^
+App 686937 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/utils/deprecation.py", line 136, in __call__
+App 686937 output:     response = self.process_response(request, response)
+App 686937 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 686937 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/middleware/common.py", line 108, in process_response
+App 686937 output:     return self.response_redirect_class(self.get_full_path_with_slash(request))
+App 686937 output:                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 686937 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+App 686937 output:     raise RuntimeError(
+App 686937 output: RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to deviceshopmaster-api.ecomputics.uz/products/45/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+App 686937 output: Unauthorized: /products/46/
+App 686937 output: [ pid=686937, time=2024-04-11 16:50:42,423 ]: Unauthorized: /products/46/
+App 686937 output: Unauthorized: /products/3/
+App 686937 output: [ pid=686937, time=2024-04-11 17:55:23,695 ]: Unauthorized: /products/3/
+App 2326728 output: Internal Server Error: /products/12
+App 2326728 output: Traceback (most recent call last):
+App 2326728 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+App 2326728 output:     response = get_response(request)
+App 2326728 output:                ^^^^^^^^^^^^^^^^^^^^^
+App 2326728 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/utils/deprecation.py", line 136, in __call__
+App 2326728 output:     response = self.process_response(request, response)
+App 2326728 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 2326728 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/middleware/common.py", line 108, in process_response
+App 2326728 output:     return self.response_redirect_class(self.get_full_path_with_slash(request))
+App 2326728 output:                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 2326728 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+App 2326728 output:     raise RuntimeError(
+App 2326728 output: RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to deviceshopmaster-api.ecomputics.uz/products/12/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+App 2326728 output: [ pid=2326728, time=2024-04-11 18:22:14,243 ]: Internal Server Error: /products/12
+App 2326728 output: Traceback (most recent call last):
+App 2326728 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+App 2326728 output:     response = get_response(request)
+App 2326728 output:                ^^^^^^^^^^^^^^^^^^^^^
+App 2326728 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/utils/deprecation.py", line 136, in __call__
+App 2326728 output:     response = self.process_response(request, response)
+App 2326728 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 2326728 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/middleware/common.py", line 108, in process_response
+App 2326728 output:     return self.response_redirect_class(self.get_full_path_with_slash(request))
+App 2326728 output:                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 2326728 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+App 2326728 output:     raise RuntimeError(
+App 2326728 output: RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to deviceshopmaster-api.ecomputics.uz/products/12/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+App 3261116 output: Internal Server Error: /products/74/
+App 3261116 output: Traceback (most recent call last):
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+App 3261116 output:     response = get_response(request)
+App 3261116 output:                ^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+App 3261116 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 3261116 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+App 3261116 output:     return view_func(request, *args, **kwargs)
+App 3261116 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+App 3261116 output:     return self.dispatch(request, *args, **kwargs)
+App 3261116 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+App 3261116 output:     response = self.handle_exception(exc)
+App 3261116 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+App 3261116 output:     self.raise_uncaught_exception(exc)
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+App 3261116 output:     raise exc
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+App 3261116 output:     response = handler(request, *args, **kwargs)
+App 3261116 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/generics.py", line 289, in put
+App 3261116 output:     return self.update(request, *args, **kwargs)
+App 3261116 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 68, in update
+App 3261116 output:     self.perform_update(serializer)
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 78, in perform_update
+App 3261116 output:     serializer.save()
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/serializers.py", line 203, in save
+App 3261116 output:     self.instance = self.update(self.instance, validated_data)
+App 3261116 output:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/DeviceShopMaster/devices/serializers.py", line 58, in update
+App 3261116 output:     img = Image.open(BytesIO(image.read()))
+App 3261116 output:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib64/python3.11/site-packages/PIL/Image.py", line 3339, in open
+App 3261116 output:     raise UnidentifiedImageError(msg)
+App 3261116 output: PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f65b764d530>
+App 3261116 output: [ pid=3261116, time=2024-04-11 20:11:13,905 ]: Internal Server Error: /products/74/
+App 3261116 output: Traceback (most recent call last):
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+App 3261116 output:     response = get_response(request)
+App 3261116 output:                ^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+App 3261116 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 3261116 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+App 3261116 output:     return view_func(request, *args, **kwargs)
+App 3261116 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+App 3261116 output:     return self.dispatch(request, *args, **kwargs)
+App 3261116 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+App 3261116 output:     response = self.handle_exception(exc)
+App 3261116 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+App 3261116 output:     self.raise_uncaught_exception(exc)
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+App 3261116 output:     raise exc
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+App 3261116 output:     response = handler(request, *args, **kwargs)
+App 3261116 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/generics.py", line 289, in put
+App 3261116 output:     return self.update(request, *args, **kwargs)
+App 3261116 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 68, in update
+App 3261116 output:     self.perform_update(serializer)
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 78, in perform_update
+App 3261116 output:     serializer.save()
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/serializers.py", line 203, in save
+App 3261116 output:     self.instance = self.update(self.instance, validated_data)
+App 3261116 output:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/DeviceShopMaster/devices/serializers.py", line 58, in update
+App 3261116 output:     img = Image.open(BytesIO(image.read()))
+App 3261116 output:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3261116 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib64/python3.11/site-packages/PIL/Image.py", line 3339, in open
+App 3261116 output:     raise UnidentifiedImageError(msg)
+App 3261116 output: PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f65b764d530>
+App 3282510 output: Internal Server Error: /products/74/
+App 3282510 output: Traceback (most recent call last):
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+App 3282510 output:     response = get_response(request)
+App 3282510 output:                ^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+App 3282510 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 3282510 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+App 3282510 output:     return view_func(request, *args, **kwargs)
+App 3282510 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+App 3282510 output:     return self.dispatch(request, *args, **kwargs)
+App 3282510 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+App 3282510 output:     response = self.handle_exception(exc)
+App 3282510 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+App 3282510 output:     self.raise_uncaught_exception(exc)
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+App 3282510 output:     raise exc
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+App 3282510 output:     response = handler(request, *args, **kwargs)
+App 3282510 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/generics.py", line 289, in put
+App 3282510 output:     return self.update(request, *args, **kwargs)
+App 3282510 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 68, in update
+App 3282510 output:     self.perform_update(serializer)
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 78, in perform_update
+App 3282510 output:     serializer.save()
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/serializers.py", line 203, in save
+App 3282510 output:     self.instance = self.update(self.instance, validated_data)
+App 3282510 output:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/DeviceShopMaster/devices/serializers.py", line 58, in update
+App 3282510 output:     img = Image.open(BytesIO(image.read()))
+App 3282510 output:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib64/python3.11/site-packages/PIL/Image.py", line 3339, in open
+App 3282510 output:     raise UnidentifiedImageError(msg)
+App 3282510 output: PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f7b634d04a0>
+App 3282510 output: [ pid=3282510, time=2024-04-11 20:13:48,710 ]: Internal Server Error: /products/74/
+App 3282510 output: Traceback (most recent call last):
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+App 3282510 output:     response = get_response(request)
+App 3282510 output:                ^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+App 3282510 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 3282510 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+App 3282510 output:     return view_func(request, *args, **kwargs)
+App 3282510 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+App 3282510 output:     return self.dispatch(request, *args, **kwargs)
+App 3282510 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+App 3282510 output:     response = self.handle_exception(exc)
+App 3282510 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+App 3282510 output:     self.raise_uncaught_exception(exc)
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+App 3282510 output:     raise exc
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+App 3282510 output:     response = handler(request, *args, **kwargs)
+App 3282510 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/generics.py", line 289, in put
+App 3282510 output:     return self.update(request, *args, **kwargs)
+App 3282510 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 68, in update
+App 3282510 output:     self.perform_update(serializer)
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 78, in perform_update
+App 3282510 output:     serializer.save()
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/serializers.py", line 203, in save
+App 3282510 output:     self.instance = self.update(self.instance, validated_data)
+App 3282510 output:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/DeviceShopMaster/devices/serializers.py", line 58, in update
+App 3282510 output:     img = Image.open(BytesIO(image.read()))
+App 3282510 output:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3282510 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib64/python3.11/site-packages/PIL/Image.py", line 3339, in open
+App 3282510 output:     raise UnidentifiedImageError(msg)
+App 3282510 output: PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f7b634d04a0>
+App 3394729 output: Internal Server Error: /products/74/
+App 3394729 output: Traceback (most recent call last):
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+App 3394729 output:     response = get_response(request)
+App 3394729 output:                ^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+App 3394729 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 3394729 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+App 3394729 output:     return view_func(request, *args, **kwargs)
+App 3394729 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+App 3394729 output:     return self.dispatch(request, *args, **kwargs)
+App 3394729 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+App 3394729 output:     response = self.handle_exception(exc)
+App 3394729 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+App 3394729 output:     self.raise_uncaught_exception(exc)
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+App 3394729 output:     raise exc
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+App 3394729 output:     response = handler(request, *args, **kwargs)
+App 3394729 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/generics.py", line 289, in put
+App 3394729 output:     return self.update(request, *args, **kwargs)
+App 3394729 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 68, in update
+App 3394729 output:     self.perform_update(serializer)
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 78, in perform_update
+App 3394729 output:     serializer.save()
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/serializers.py", line 203, in save
+App 3394729 output:     self.instance = self.update(self.instance, validated_data)
+App 3394729 output:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/DeviceShopMaster/devices/serializers.py", line 58, in update
+App 3394729 output:     img = Image.open(BytesIO(image.read()))
+App 3394729 output:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib64/python3.11/site-packages/PIL/Image.py", line 3339, in open
+App 3394729 output:     raise UnidentifiedImageError(msg)
+App 3394729 output: PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f475312b0b0>
+App 3394729 output: [ pid=3394729, time=2024-04-11 20:32:26,879 ]: Internal Server Error: /products/74/
+App 3394729 output: Traceback (most recent call last):
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+App 3394729 output:     response = get_response(request)
+App 3394729 output:                ^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+App 3394729 output:     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+App 3394729 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+App 3394729 output:     return view_func(request, *args, **kwargs)
+App 3394729 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+App 3394729 output:     return self.dispatch(request, *args, **kwargs)
+App 3394729 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+App 3394729 output:     response = self.handle_exception(exc)
+App 3394729 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+App 3394729 output:     self.raise_uncaught_exception(exc)
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+App 3394729 output:     raise exc
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+App 3394729 output:     response = handler(request, *args, **kwargs)
+App 3394729 output:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/generics.py", line 289, in put
+App 3394729 output:     return self.update(request, *args, **kwargs)
+App 3394729 output:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 68, in update
+App 3394729 output:     self.perform_update(serializer)
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 78, in perform_update
+App 3394729 output:     serializer.save()
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib/python3.11/site-packages/rest_framework/serializers.py", line 203, in save
+App 3394729 output:     self.instance = self.update(self.instance, validated_data)
+App 3394729 output:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/DeviceShopMaster/devices/serializers.py", line 58, in update
+App 3394729 output:     img = Image.open(BytesIO(image.read()))
+App 3394729 output:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+App 3394729 output:   File "/home/ecomputi/virtualenv/DeviceShopMaster/3.11/lib64/python3.11/site-packages/PIL/Image.py", line 3339, in open
+App 3394729 output:     raise UnidentifiedImageError(msg)
+App 3394729 output: PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f475312b0b0>
+App 3470134 output: Not Found: /favicon.ico
+App 3470134 output: [ pid=3470134, time=2024-04-11 20:44:55,176 ]: Not Found: /favicon.ico
+App 3493306 output: Not Found: /media/product_image_thumbnails/Rode_NT1_5th_Generation_Condenser_Microphone_thumb_mFZuccU.jpg
+App 3493306 output: [ pid=3493306, time=2024-04-11 20:58:35,808 ]: Not Found: /media/product_image_thumbnails/Rode_NT1_5th_Generation_Condenser_Microphone_thumb_mFZuccU.jpg
+App 3618907 output: Bad Request: /auth/token/login/
+App 3618907 output: [ pid=3618907, time=2024-04-11 21:30:14,501 ]: Bad Request: /auth/token/login/
+App 3618907 output: Bad Request: /auth/token/login/
+App 3618907 output: [ pid=3618907, time=2024-04-11 21:39:21,734 ]: Bad Request: /auth/token/login/
+App 3618907 output: Bad Request: /auth/token/login/
+App 3618907 output: [ pid=3618907, time=2024-04-11 21:39:27,356 ]: Bad Request: /auth/token/login/
+App 33137 output: Bad Request: /auth/token/login/
+App 33137 output: [ pid=33137, time=2024-04-12 02:07:55,374 ]: Bad Request: /auth/token/login/
+App 33137 output: Bad Request: /auth/token/login/
+App 33137 output: [ pid=33137, time=2024-04-12 02:07:58,141 ]: Bad Request: /auth/token/login/
+App 33137 output: Bad Request: /auth/token/login/
+App 33137 output: [ pid=33137, time=2024-04-12 02:08:38,054 ]: Bad Request: /auth/token/login/
+App 33137 output: Bad Request: /auth/token/login/
+App 33137 output: [ pid=33137, time=2024-04-12 02:08:57,923 ]: Bad Request: /auth/token/login/
+App 33137 output: Bad Request: /auth/token/login/
+App 33137 output: [ pid=33137, time=2024-04-12 02:09:42,088 ]: Bad Request: /auth/token/login/
+App 33137 output: Bad Request: /auth/token/login/
+App 33137 output: [ pid=33137, time=2024-04-12 02:09:49,527 ]: Bad Request: /auth/token/login/
